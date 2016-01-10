@@ -9,3 +9,16 @@
 .shade-blue {
 	background-color: #5b628c !important;
 }
+
+.layout-transparent {
+  background: 
+    linear-gradient(
+      rgba(50, 50, 50, 0.5), 
+      rgba(50, 50, 50, 0.5)
+    ),
+    url('http://adminpilot.s3.amazonaws.com/brownsautorepairtx/files/2010/09/auto-mechanic-tires.jpg') center / cover;
+}
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
