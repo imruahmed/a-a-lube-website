@@ -1,24 +1,76 @@
-.midnight-blue {
-  	background-color: #252839 !important;
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
-.midnight-blue-text {
-	color: #252839 !important;
+.maroon {
+	background-color: #66151a !important;
+}
+.maroon-text {
+	color: #a5222b !important;
 }
 
-.shade-blue {
-	background-color: #5b628c !important;
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.1)
+    );
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4), 
+      rgba(255, 255, 255, 0.4)
+    );
 }
 
-.layout-transparent {
-  background: 
-    linear-gradient(
-      rgba(50, 50, 50, 0.5), 
-      rgba(50, 50, 50, 0.5)
+#header {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 30vh;
+    background: linear-gradient(
+      rgba(50, 50, 50, 0.4), 
+      rgba(50, 50, 50, 0.4)
     ),
-    url('http://adminpilot.s3.amazonaws.com/brownsautorepairtx/files/2010/09/auto-mechanic-tires.jpg') center / cover;
+    url(http://brownmotorworks.com/wp-content/uploads/2014/04/auto-repair-service-technician.jpg?1452556800032);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.layout-transparent .mdl-layout__header,
-.layout-transparent .mdl-layout__drawer-button {
-  color: white;
+
+.full-image {
+	width: 100%;
+	height: 100%;
 }
+
+#footer {
+    background-color: #66151a;
+    color: white;
+}
+
+
+
+
+
